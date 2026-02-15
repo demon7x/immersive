@@ -1,0 +1,26 @@
+camera:
+  grab_fps: 60
+  depth_mode: PERFORMANCE
+  body_model: MEDIUM
+
+tracking:
+  ema_alpha: 0.35
+  velocity_limit_m_s: 1.5
+  min_confidence: 0.4
+  loss_timeout_ms: 300
+  recenter_seconds: 0.6
+
+render:
+  target_fps: 30
+  box_depth_m: 1.2
+  box_size_m: 0.8
+  fov_deg: 60.0
+  near_m: 0.05
+  far_m: 10.0
+
+display:
+  width_m: 0.6
+  height_m: 0.34
+  resolution_w: 1920
+  resolution_h: 1080
+  camera_offset: [0.0, 0.06, 0.25, 0.0, 0.0, 0.0]
